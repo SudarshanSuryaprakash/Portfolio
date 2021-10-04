@@ -1,8 +1,8 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../styles/globals.css';
+import type { AppProps } from 'next/app';
 
-import Navbar from '../Components/Navbar'
-import Sidebar from '../Components/Sidebar'
+import Navbar from '../Components/Navbar';
+import Sidebar from '../Components/Sidebar';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div className='p-4 text-center bg-white col-span-12 lg:col-span-3 rounded-2xl'>
         <Sidebar />
       </div>
-      <div className='bg-white col-span-12 lg:col-span-9 rounded-2xl'>
+      <div className='overflow-hidden bg-white col-span-12 lg:col-span-9 rounded-2xl'>
         <Navbar />
         <Component {...pageProps} />
       </div>
     </div>
-  )
+  );
 }
-export default MyApp
+export default MyApp;
