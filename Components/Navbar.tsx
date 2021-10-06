@@ -8,8 +8,9 @@ const Navbar = () => {
   const [activePage, setactivePage] = useState<string>('');
   useEffect(() => {
     if (pathname === '/') setactivePage('About');
-    else if (pathname === '/resume') setactivePage('Resume');
+    else if (pathname === '/resume') setactivePage('Ed & Work');
     else if (pathname === '/projects') setactivePage('Projects');
+    else if (pathname === '/skills') setactivePage('Skills & Certs');
   }, [pathname]);
   return (
     <div className='flex justify-between px-5 py-3 my-3'>
@@ -32,8 +33,14 @@ const Navbar = () => {
         <NavItem
           activePage={activePage}
           setActivePage={setactivePage}
-          page='Resume'
+          page='Ed & Work'
           route='/resume'
+        />
+        <NavItem
+          activePage={activePage}
+          setActivePage={setactivePage}
+          page='Skills & Certs'
+          route='/skills'
         />
       </div>
     </div>

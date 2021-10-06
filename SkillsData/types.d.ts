@@ -4,5 +4,15 @@ export interface ISkill {
   title: string;
   description: string;
   Icon: IconType;
-  tech: string[];
+}
+
+export interface ISkillResume {
+  title: string;
+  level: string;
+  Icon: IconType;
+}
+
+export interface ICertifications {
+  title: string;
+  url: string;
 }
