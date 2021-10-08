@@ -5,7 +5,7 @@ import SkillCard from '../Components/SkillCard';
 
 const Home: NextPage = () => {
   return (
-    <div className='flex flex-grow lg:mt-6 md:mt-6 flex-col px-6 pt-1 h-full'>
+    <div className='flex flex-grow lg:mt-6 md:mt-6 flex-col px-6 pt-1'>
       <div className='text-justify flex flex-col gap-1'>
         <p className=''>
           Skilled Software Engineer who loves tackling challenges in the web
@@ -22,7 +22,6 @@ const Home: NextPage = () => {
         </p>
       </div>
       <div
-        // className='flex-grow p-4 mt-5 bg-gradient-to-r from-black to-white'
         className='flex-grow p-4 mt-5 bg-gray-900 text-white'
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
@@ -32,14 +31,14 @@ const Home: NextPage = () => {
         <div className='grid gap-6 lg:grid-cols-2'>
           {skills.map((skill) => (
             <div
-              className='bg-white text-gray-700 rounded-lg lg:col-span-1'
+                className='bg-white dark:bg-black dark:text-gray-200 text-gray-700 rounded-lg lg:col-span-1'
               key={skill.title}
             >
               <SkillCard skill={skill} />
             </div>
           ))}
         </div>
-        <div className='my-3 font-bold flex flex-col gap-1'>
+        <div className='mt-3 flex flex-col gap-1'>
           <p>
             Text Editor of choice? Vim. When I use VSCode, I have my Vim key
             bindings on there!

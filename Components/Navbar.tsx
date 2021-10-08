@@ -14,10 +14,10 @@ const Navbar = () => {
   }, [pathname]);
   return (
     <div className='flex justify-between px-5 py-3 my-3'>
-      <span className='font-bold text-gray-700 text-xl border-b-4 border-gray-500 md:text-2xl'>
+        <span className='font-bold dark:text-gray-300 text-gray-700 text-xl border-b-4 border-gray-500 md:text-2xl'>
         {activePage}
       </span>
-      <div className='text-gray-500 text-lg space-x-5 flex'>
+        <div className='dark:text-gray-200 text-gray-500 text-lg space-x-5 flex'>
         <NavItem
           activePage={activePage}
           setActivePage={setactivePage}

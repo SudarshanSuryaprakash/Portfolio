@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const skills = () => {
   return (
-    <div className='mx-2 '>
+    <div className='mx-2'>
       <div className='grid gap-9 md:grid-cols-2 '>
         <div>
           <h5 className='my-3 text-2xl font-bold'>Languages</h5>
