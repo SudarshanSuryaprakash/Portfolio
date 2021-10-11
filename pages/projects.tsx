@@ -1,9 +1,6 @@
-const projects = () => {
-    return (
-        <div className='p-4'>
-           projects page 
-        </div>
-    )
-}
+import { projects } from '../Data/data';
+const Projects = () => {
+  return <div className='p-4'>projects page</div>;
+};
 
-export default projects
+export default Projects;

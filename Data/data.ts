@@ -15,7 +15,7 @@ import {
   SiTailwindcss,
 } from 'react-icons/si';
 import { GiFamilyTree } from 'react-icons/gi';
-import { ICertifications, ISkill, ISkillResume } from './types';
+import { ICertifications, IProject, ISkill, ISkillResume } from './types';
 
 export const skills: ISkill[] = [
   {
@@ -141,5 +141,18 @@ export const certifications: ICertifications[] = [
   {
     title: 'Typescript',
     url: 'https://www.udemy.com/certificate/UC-d5bc9b94-7f2a-4a31-8828-b8280cad1adc/',
+  },
+];
+
+export const projects: IProject[] = [
+  {
+    title: 'Amazon Clone',
+    description:
+      'This is a clone of amazon! It uses the fakestore api to populate items',
+    image_path: '',
+    deployed_url: '',
+    category: ['next'],
+    github_url: '',
+    key_techs: [],
   },
 ];

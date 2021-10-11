@@ -1,6 +1,6 @@
 import { FunctionComponent } from 'react';
 
-import { ISkillResume } from '../SkillsData/types';
+import { ISkillResume } from '../Data/types';
 
 const Bar: FunctionComponent<{ value: ISkillResume }> = ({
   value: { Icon, level, title },

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { NextPage } from 'next';
-import { skills } from '../SkillsData/data';
+import { skills } from '../Data/data';
 import SkillCard from '../Components/SkillCard';
 
 const Home: NextPage = () => {
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <div className='grid gap-6 lg:grid-cols-2'>
           {skills.map((skill) => (
             <div
-                className='bg-white dark:bg-black dark:text-gray-200 text-gray-700 rounded-lg lg:col-span-1'
+              className='bg-white dark:bg-black dark:text-gray-200 text-gray-700 rounded-lg lg:col-span-1'
               key={skill.title}
             >
               <SkillCard skill={skill} />

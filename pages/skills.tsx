@@ -1,5 +1,5 @@
 import Bar from '../Components/Bar';
-import { certifications, languages, tools } from '../SkillsData/data';
+import { certifications, languages, tools } from '../Data/data';
 import Link from 'next/link';
 
 const skills = () => {
