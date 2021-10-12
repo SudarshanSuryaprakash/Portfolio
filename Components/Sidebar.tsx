@@ -20,9 +20,9 @@ const Sidebar = () => {
 				className="w-32 h-32 mx-auto rounded-full"
 				alt="Sudarshan"
 			/>
-			<h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white">
+			<h3 className="flex flex-col my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white">
 				<span className="text-gray-600 dark:text-gray-400">Sudarshan </span>
-				Suryaprakash
+        <span className='truncate'>Suryaprakash</span>
 			</h3>
 			<p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Software Engineer</p>
 			<a

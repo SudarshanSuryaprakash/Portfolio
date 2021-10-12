@@ -18,7 +18,7 @@ const ProjectCard: FunctionComponent<{project: IProject}> = ({
 }) => {
 	const [showDetails, setShowDetails] = useState(false)
 	return (
-		<div className="text-white bg-gray-900 rounded-md ">
+		<div className="flex flex-col items-center justify-center text-white bg-gray-900 rounded-md ">
 			<Image
 				onClick={() => setShowDetails(true)}
 				src={image_path}
@@ -29,19 +29,19 @@ const ProjectCard: FunctionComponent<{project: IProject}> = ({
 			/>
 			<p className="my-2 text-center">{title}</p>
 			{showDetails && (
-				<div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-white bg-gray-900 md:grid-cols-2 gap-x-12">
+				<div className="absolute top-0 left-0 z-10 w-full h-auto p-2 text-white bg-gray-900 grid md:grid-cols-2 gap-x-12">
 					<div>
 						<Image src={image_path} alt={title} width="400" height="250" />
-						<div className="flex justify-center my-4 space-x-3 text-black">
+						<div className="flex justify-center my-4 text-black space-x-3">
 							<a
-								className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-400 rounded-md"
+								className="flex items-center px-4 py-2 text-lg bg-gray-400 space-x-3 rounded-md"
 								href={github_url}
 							>
 								<AiFillGithub className="w-8 h-8 text-black cursor-pointer" />
 								<span>Github</span>
 							</a>
 							<a
-								className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-400 rounded-md"
+								className="flex items-center px-4 py-2 text-lg bg-gray-400 space-x-3 rounded-md"
 								href={deployed_url}
 							>
 								<AiFillProject className="w-8 h-8 text-black cursor-pointer" />
@@ -52,7 +52,7 @@ const ProjectCard: FunctionComponent<{project: IProject}> = ({
 					<div>
 						<h2 className="mb-3 text-xl font-medium md:text-2xl">{title}</h2>
 						<h3 className="mb-3 font-medium">{description}</h3>
-						<div className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
+						<div className="flex flex-wrap mt-5 text-sm tracking-wider space-x-2">
 							{key_techs.map((tech) => {
 								return (
 									<span
