@@ -149,10 +149,120 @@ export const projects: IProject[] = [
     title: 'Amazon Clone',
     description:
       'This is a clone of amazon! It uses the fakestore api to populate items',
-    image_path: '',
-    deployed_url: '',
+    image_path: '/images/amazon.png',
+    deployed_url: 'sudo-amazon.vercel.app',
     category: ['next'],
-    github_url: '',
-    key_techs: [],
+    github_url: 'https://github.com/SudarshanSuryaprakash/AmazonClone',
+    key_techs: ['next', 'tailwind', 'react'],
+  },
+  {
+    title: 'Hulu Clone',
+    description:
+      'This is a clone of Hulu that pulls data from themoviedb.',
+    image_path: '/images/hulu.png',
+    deployed_url: 'sudohulunext.vercel.app',
+    category: ['next'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/sudohulu',
+    key_techs: ['next', 'tailwind', 'react'],
+  },
+  {
+    title: 'A* Path Visualiser',
+    description:
+      'A* is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. In this Project, I find the optimal path from the top left of the screen to the bottom right - past randomly generated obstacles. React was used to create the front end and modern CSS techniques (keyframes and animations) and Sass were used to animate the tiles.',
+    image_path: '/images/pathFind.png',
+    deployed_url: 'https://pathfind-viz.vercel.app/',
+    category: ['react'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/A-star-visualizer',
+    key_techs: ['algorithms', 'react'],
+  },
+  {
+    title: 'ProfConnector',
+    description:
+      'A Full scale Social Media Web App that allows Professors from Brunel University to have a profile and communicate with each other. Uses MongoDB, Express, React and Node. Protects routes with JSON Web Tokens. Extensive backend testing with Postman. Redux is used for state management. Redux is functionality and state management is tested with Redux Dev Tools for Chrome.',
+    image_path: '/images/profConnector.png',
+    deployed_url: 'https://ancient-springs-06742.herokuapp.com/',
+    category: ['react', 'node', 'mongo', 'full stack'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/ProfConnector',
+    key_techs: ['node', 'react', 'mongodb', 'redux'],
+  },
+  {
+    title: 'E-commerce',
+    description:
+      'Full scale E-Commerce web App rich with features. Built with the MERN stack. Ready to be deployed - Could find a client and sell. Key features include: Search Product (SP)| SP based on category | New Arrivals | Best Sellers | Product Image | Product Information | Product in stock/Out of stock | View Product | Related Products | Full cart Functionalities | User and Admin Dashboards/Routes | Advanced SP based on Price range and Category. Offers a video demo',
+    image_path: '/images/ecommerce.png',
+    deployed_url: 'https://www.linkedin.com/posts/sudarshan-suryaprakash-b5ab1b190_mern-react-javascript-activity-6683104988476002304-H6O8',
+    category: ['react', 'node', 'mongo', 'full stack'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/ecommerce',
+    key_techs: ['node', 'react', 'mongodb', 'sendgrid', 'braintree', 'JWT'],
+  },
+  {
+    title: 'COVID-19 tracker',
+    description:
+      'Uses an external API to obtain current data on the number of affected, dead and cured people due to the COVID-19. The app uses React, Material UI and Chart.js Corona Virus is, unfortunately, spreading through the entire world. As a developer, I decided to help by visualizing the data and spreading awareness. The data is fetched from an external API. This project/application is created using the most modern JavaScript syntax (Async/Await, arrow functions, Hooks).',
+    image_path: '/images/covid.png',
+    deployed_url: 'https://covid19trackersud.herokuapp.com/',
+    category: ['react'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/ecommerce',
+    key_techs: ['react'],
+  },
+  {
+    title: 'Streamer',
+    description:
+      'Uses an external API to obtain current data on the number of affected, dead and cured people due to the COVID-19. The app uses React, Material UI and Chart.js Corona Virus is, unfortunately, spreading through the entire world. As a developer, I decided to help by visualizing the data and spreading awareness. The data is fetched from an external API. This project/application is created using the most modern JavaScript syntax (Async/Await, arrow functions, Hooks).',
+    image_path: '/images/streamer.png',
+    deployed_url: 'https://www.linkedin.com/posts/sudarshan-suryaprakash-b5ab1b190_hi-everyone-during-the-pandemic-there-activity-6724369565226213376-d27j',
+    category: ['react'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/ASM',
+    key_techs: ['react', 'redux', 'json-server', 'rtmp-node-media-server'],
+  },
+  {
+    title: 'Timer',
+    description:
+      'Drawing Animations built with SVG (stroke-dasharray and stroke-dashoffset)',
+    image_path: '/images/timer.png',
+    deployed_url: 'https://sudarshansuryaprakash.github.io/Timer/',
+    category: ['javascript'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/Timer',
+    key_techs: ['javascript'],
+  },
+  {
+    title: 'DOM array methods',
+    description:
+      'Simple use of Javascript DOM array methods - forEach(), map(), sort(), filter() and reduce()',
+    image_path: '/images/dom.png',
+    deployed_url: 'https://sudarshansuryaprakash.github.io/Dom-Array-Methods/',
+    category: ['javascript'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/Dom-Array-Methods',
+    key_techs: ['javascript'],
+  },
+  {
+    title: 'Exchange Rate Calculator',
+    description:
+      'Fetches exchange rates from external API and calls a function to rerender data every time an input is changed.',
+    image_path: '/images/erc.png',
+    deployed_url: 'https://sudarshansuryaprakash.github.io/Exchange-rate-calculator/',
+    category: ['javascript'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/Exchange-rate-calculator',
+    key_techs: ['javascript'],
+  },
+  {
+    title: 'Custom Video Player',
+    description:
+      'Does not use the precoded controls for the HTML5 video. Custom controls for play, pause, progress bar',
+    image_path: '/images/video.png',
+    deployed_url: 'https://sudarshansuryaprakash.github.io/CustomVideoPlayer/',
+    category: ['javascript'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/CustomVideoPlayer',
+    key_techs: ['javascript'],
+  },
+  {
+    title: 'Movie Seat Booker',
+    description:
+      'Allows for booking seats. Uses local storage to save selected data - persistent on page refresh',
+    image_path: '/images/movie.png',
+    deployed_url: 'https://sudarshansuryaprakash.github.io/MovieSelector/',
+    category: ['javascript'],
+    github_url: 'https://github.com/SudarshanSuryaprakash/MovieSelector',
+    key_techs: ['javascript', 'css'],
   },
 ];
