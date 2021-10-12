@@ -27,7 +27,7 @@ const Sidebar = () => {
 			<p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Software Engineer</p>
 			<a
 				className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
-				href="#"
+				href="/assets/SudarshanCV2021.pdf"
 				download="SudarshanResume2021"
 			>
 				<GiTie className="w-6 h-6" />
@@ -47,14 +47,14 @@ const Sidebar = () => {
 			</div>
 			{/* address */}
 			<div
-				className="py-4 my-5 bg-gray-200"
+				className="flex flex-col py-4 my-5 bg-gray-200 fle-wrap"
 				style={{marginLeft: '-1rem', marginRight: '-1rem'}}
 			>
 				<div className="flex items-center justify-center space-x-2">
 					<GoLocation />
 					<span>United Kingdom</span>
 				</div>
-				<p className="my-2">sudarshansprakash@gmail.com</p>
+				<p className="flex-wrap my-2 truncate">sudarshansprakash@gmail.com</p>
 				<p className="my-2">07392785497</p>
 			</div>
 			{/* Email and toggle UI buttons */}
