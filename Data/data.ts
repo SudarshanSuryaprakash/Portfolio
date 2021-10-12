@@ -13,6 +13,9 @@ import {
   SiReact,
   SiNodeDotJs,
   SiTailwindcss,
+  SiShell,
+  SiRedux,
+  SiJest,
 } from 'react-icons/si';
 import { GiFamilyTree } from 'react-icons/gi';
 import { ICertifications, IProject, ISkill, ISkillResume } from './types';
@@ -69,6 +72,11 @@ export const languages: ISkillResume[] = [
     level: '50%',
     Icon: SiJava,
   },
+  {
+    title: 'Shell',
+    level: '50%',
+    Icon: SiShell,
+  },
 ];
 
 export const tools: ISkillResume[] = [
@@ -106,6 +114,16 @@ export const tools: ISkillResume[] = [
     title: 'Tailwind CSS',
     level: '95%',
     Icon: SiTailwindcss,
+  },
+  {
+    title: 'Redux',
+    level: '95%',
+    Icon: SiRedux,
+  },
+  {
+    title: 'Jest & Enzyme',
+    level: '95%',
+    Icon: SiJest,
   },
 ];
 
