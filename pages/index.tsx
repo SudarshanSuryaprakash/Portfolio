@@ -6,7 +6,7 @@ import SkillCard from '../Components/SkillCard'
 const Home: NextPage = () => {
 	return (
 		<div className="flex flex-col flex-grow px-6 pt-1 dark:text-gray-200 lg:mt-6 md:mt-6">
-			<div className="flex flex-col gap-1 text-justify">
+			<div className="flex flex-col text-justify gap-1">
 				<p className="">
 					Skilled Software Engineer who loves tackling challenges in the web space.
 				</p>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 						</div>
 					))}
 				</div>
-				<div className="flex flex-col gap-1 mt-3 dark:text-white">
+				<div className="flex flex-col mt-3 gap-1 dark:text-white">
 					<p>
 						Text Editor of choice? Vim. When I use VSCode, I have my Vim key bindings
 						on there!
