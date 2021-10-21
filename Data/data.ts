@@ -1,4 +1,3 @@
-import { IconType } from 'react-icons';
 import { RiComputerLine } from 'react-icons/ri';
 import { FaDatabase, FaGoogle } from 'react-icons/fa';
 import {
@@ -168,7 +167,7 @@ export const projects: IProject[] = [
     description:
       'This is a clone of amazon! It uses the fakestore api to populate items',
     image_path: '/images/amazon.png',
-    deployed_url: 'sudo-amazon.vercel.app',
+    deployed_url: 'https://sudo-amazon.vercel.app',
     category: ['next'],
     github_url: 'https://github.com/SudarshanSuryaprakash/AmazonClone',
     key_techs: ['next', 'tailwind', 'react'],
@@ -178,7 +177,7 @@ export const projects: IProject[] = [
     description:
       'This is a clone of Hulu that pulls data from themoviedb.',
     image_path: '/images/hulu.png',
-    deployed_url: 'sudohulunext.vercel.app',
+    deployed_url: 'https://sudohulunext.vercel.app',
     category: ['next'],
     github_url: 'https://github.com/SudarshanSuryaprakash/sudohulu',
     key_techs: ['next', 'tailwind', 'react'],
