@@ -29,11 +29,11 @@ const skills = () => {
         <p className='font-medium text-center text-gray-600'>
           Click them to view
         </p>
-        <div className='grid md:grid-cols-2 gap-2 mx-2 my-2'>
+        <div className='mx-2 my-2 grid md:grid-cols-2 gap-2'>
           {certifications.map((cert) => {
             return (
               <Link key={cert.url} passHref href={cert.url}>
-                <div className='cursor-pointer font-bold rounded-r-full bg-gradient-to-l from-black to-white px-2 py-1 text-black'>
+                <div className='px-2 py-1 font-bold text-black rounded-r-full cursor-pointer bg-gradient-to-l from-black to-white'>
                   {cert.title}
                 </div>
               </Link>

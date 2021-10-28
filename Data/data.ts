@@ -3,14 +3,14 @@ import { FaDatabase, FaGoogle } from 'react-icons/fa';
 import {
   SiPython,
   SiTypescript,
-  SiNextDotJs,
+  SiNextdotjs,
   SiJavascript,
   SiJava,
   SiGo,
   SiGatsby,
   SiGraphql,
   SiReact,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiTailwindcss,
   SiShell,
   SiRedux,
@@ -82,7 +82,7 @@ export const tools: ISkillResume[] = [
   {
     title: 'Next.js',
     level: '80%',
-    Icon: SiNextDotJs,
+    Icon: SiNextdotjs,
   },
   {
     title: 'React.js',
@@ -102,7 +102,7 @@ export const tools: ISkillResume[] = [
   {
     title: 'Node.js',
     level: '80%',
-    Icon: SiNodeDotJs,
+    Icon: SiNodedotjs,
   },
   {
     title: 'GraphQL',
