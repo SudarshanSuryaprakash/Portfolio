@@ -13,8 +13,8 @@ const resume = () => {
                     <p className="text-sm">2020-2022</p>
                     <div className="my-3 font-medium flex flex-col gap-1">
                         <p>
-                            Learnt the basics of Business and Management. Able
-                            to now be a strong developer with business acumen.
+                            Understood the basics of Business sciences. Also understood the business implications of 
+                            software and the role it plays in the economy.
                         </p>
                         <p>
                             Thesis: `The Role of Influence and Persuasion in
@@ -28,8 +28,8 @@ const resume = () => {
                     <p className="text-sm">2015-2019</p>
                     <div className="my-3 flex flex-col gap-1">
                         <p>
-                            Learnt the fundamentals of computer science and
-                            obtained a first class degree
+                            Learnt the basics of Computer Science and Engineering. Strong understanding
+                            of the basics has allowed for independant research and application in areas of interest.
                         </p>
                         <p>
                             Final year Project: `Data Analytics System for
@@ -47,9 +47,8 @@ const resume = () => {
                         <p className="dark:text-gray-300 font-semibold">Elanco</p>
                         <p className="dark:text-gray-300 text-sm">July 2021 - Present</p>
                         <p className="my-3">
-                            Working with cutting edge technology! Doing solid
-                            work and learning loads. Work so far has been mostly
-                            concentrated in the web space!
+                          Work on projects with latest technologies like Nextjs and Typescript.
+                          Broad area of expertise in performance engineering and automating tasks through computer programs
                         </p>
                     </div>
                     <div className="">
@@ -80,9 +79,8 @@ const resume = () => {
                         </p>
                         <p className="dark:text-gray-300 text-sm">Jun - Aug 2018</p>
                         <p className="my-3">
-                            Mostly requirements engineering. Got involved with
-                            the marketing department and got offered a permanent
-                            position there.
+                          Performed requirements engineering and had exposure to business.
+                          Worked in a cross functional team and contributed to the development of ERP systems
                         </p>
                     </div>
                 </div>

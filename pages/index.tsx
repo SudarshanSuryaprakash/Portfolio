@@ -8,7 +8,7 @@ const Home: NextPage = () => {
 		<div className="flex flex-col flex-grow px-6 pt-1 dark:text-gray-200 lg:mt-6 md:mt-6">
 			<div className="flex flex-col text-justify gap-1">
 				<p className="">
-					Skilled Software Engineer who loves tackling challenges in the web space.
+					Skilled Software Engineer who loves tackling challenges.
 				</p>
 				<p>
 					Obtained a First Class Bachelor's Degree in Computer Science and
@@ -16,8 +16,7 @@ const Home: NextPage = () => {
 					expected First Class degree.
 				</p>
 				<p>
-					Currently doing a placement year as a Software Engineer at Elanco. Looking
-					for Graduate / Mid level developer opportunities.
+					Currently doing a placement year as a Software Engineer at Elanco. 
 				</p>
 			</div>
 			<div
@@ -25,7 +24,7 @@ const Home: NextPage = () => {
 				style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}
 			>
 				<h6 className="my-3 text-xl font-bold tracking-wide text-white">
-					Stuff I know pretty well
+					Technologies I've worked with
 				</h6>
 				<div className="grid gap-6 lg:grid-cols-2">
 					{skills.map((skill) => (
@@ -39,12 +38,7 @@ const Home: NextPage = () => {
 				</div>
 				<div className="flex flex-col mt-3 gap-1 dark:text-white">
 					<p>
-						Text Editor of choice? Vim. When I use VSCode, I have my Vim key bindings
-						on there!
-					</p>
-					<p>
-						Outside of work, I play Ultimate Frisbee! I've Captained a club in India,
-						and we're currently placed 3rd In the country!
+            Outside of work, I play Ultimate Frisbee, and have represented and lead my team in professional matches
 					</p>
 				</div>
 			</div>

@@ -23,24 +23,24 @@ export const skills: ISkill[] = [
   {
     title: 'Front End Development',
     description:
-      'Stunning UI, Impeccable consumption of API and an insatiable thirst for more',
+      'Well designed UI development, engineering of user experience and api consumption',
     Icon: RiComputerLine,
   },
   {
     title: 'Back End Development',
-    description: "Databases? Rest API? I've got you covered!",
+    description: "Creating knowledge out of raw data and communicating it to the front end through APIs",
     Icon: FaDatabase,
   },
   {
     title: 'Data Structures and Algorithms',
     description:
-      'Having this knowledge helps with problem solving - even in the web space (Building complex navigations for example)',
+      'Finding and implementing optimal solutions to computational requirements',
     Icon: GiFamilyTree,
   },
   {
-    title: 'How to Google',
+    title: 'Resourcefulness',
     description:
-      'Believe that knowing `what` to do solves most of the problem. A Google query will provide the `How`!',
+      'Ability to investigate problems and find paths to solutions',
     Icon: FaGoogle,
   },
 ];
@@ -158,6 +158,14 @@ export const certifications: ICertifications[] = [
   {
     title: 'Typescript',
     url: 'https://www.udemy.com/certificate/UC-d5bc9b94-7f2a-4a31-8828-b8280cad1adc/',
+  },
+  {
+    title: 'Golang',
+    url: 'https://www.udemy.com/certificate/UC-4bd6c297-9c5a-4b49-b34d-81863cc526ef/',
+  },
+  {
+    title: 'Cyber Security',
+    url: 'https://www.udemy.com/certificate/UC-d1718108-715f-4f93-a250-e1d4212bd079/',
   },
 ];
 
