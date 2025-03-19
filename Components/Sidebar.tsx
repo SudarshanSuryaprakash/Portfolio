@@ -27,8 +27,8 @@ const Sidebar = () => {
 			<p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Software Engineer</p>
 			<a
 				className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
-				href="/assets/SudarshanSuryaprakashCV2021.pdf"
-				download="SudarshanResume2021"
+				href="/assets/SudarshanResume_2025.pdf"
+				download="SudarshanResume2025"
 			>
 				<GiTie className="w-6 h-6" />
 				Download Resume

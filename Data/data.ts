@@ -1,5 +1,5 @@
 import { RiComputerLine } from 'react-icons/ri';
-import { FaDatabase, FaGoogle } from 'react-icons/fa';
+import { FaBrain, FaCode, FaCoins, FaDatabase, FaEthereum, FaGoogle, FaLightbulb, FaReact, FaServer } from 'react-icons/fa';
 import {
   SiPython,
   SiTypescript,
@@ -15,33 +15,52 @@ import {
   SiShell,
   SiRedux,
   SiJest,
+  SiEthereum,
 } from 'react-icons/si';
 import { GiFamilyTree } from 'react-icons/gi';
 import { ICertifications, IProject, ISkill, ISkillResume } from './types';
 
+
 export const skills: ISkill[] = [
   {
-    title: 'Front End Development',
-    description:
-      'Well designed UI development, engineering of user experience and api consumption',
-    Icon: RiComputerLine,
+    title: 'Front-End Engineering',
+    description: 'Building responsive, user-focused web applications with React, Next.js, and TypeScript, emphasizing performance and seamless user experiences.',
+    Icon: FaReact, // Import from 'react-icons/fa' if needed
   },
   {
-    title: 'Back End Development',
-    description: "Creating knowledge out of raw data and communicating it to the front end through APIs",
-    Icon: FaDatabase,
+    title: 'Back-End Development',
+    description: 'Designing and implementing RESTful APIs using Node.js and Express, with experience in MongoDB and SQL for data management.',
+    Icon: FaServer, // Or FaDatabase
   },
   {
-    title: 'Data Structures and Algorithms',
-    description:
-      'Finding and implementing optimal solutions to computational requirements',
-    Icon: GiFamilyTree,
+    title: 'Algorithmic Problem Solving',
+    description: 'Applying data structures and algorithms to create efficient, scalable solutions for complex computational challenges.',
+    Icon: FaCode, // Or keep GiFamilyTree
   },
   {
-    title: 'Resourcefulness',
-    description:
-      'Ability to investigate problems and find paths to solutions',
-    Icon: FaGoogle,
+    title: 'Full-Stack Integration',
+    description: 'Connecting front-end and back-end systems to deliver cohesive, end-to-end web applications with a focus on reliability and functionality.',
+    Icon: RiComputerLine, // Or FaCogs
+  },
+  {
+    title: 'Blockchain Development',
+    description: 'Exploring blockchain technologies and smart contracts with Ethereum and Solidity.',
+    Icon: FaEthereum,
+  },
+  {
+    title: 'Decentralized Finance (DeFi) Practitioner',
+    description: 'Actively engaged in DeFi platforms, with hands-on experience in yield farming, liquidity provision, and governance token management on a variety of protocols accross blockchains.',
+    Icon: FaCoins, // Import from 'react-icons/fa'
+  },
+  {
+    title: 'Product Development and Strategy',
+    description: 'Aspiring product manager with a strong foundation in software engineering, eager to leverage technical expertise and strategic thinking to drive user-centric solutions. Skilled in problem-solving, cross-functional collaboration, and agile methodologies, with a keen interest in technology and finance.',
+    Icon: FaLightbulb, // Import from 'react-icons/fa'
+  },
+  {
+    title: 'AI-Enhanced Development and Ideation',
+    description: 'Leveraging AI tools to streamline coding practices, accelerate development, and enhance problem-solving. Experienced in using AI for code generation, debugging, and generating innovative solutions to complex challenges.',
+    Icon: FaBrain, // Visual representation of AI and innovation
   },
 ];
 
@@ -55,6 +74,11 @@ export const languages: ISkillResume[] = [
     title: 'Javascript',
     level: '95%',
     Icon: SiJavascript,
+  },
+  {
+    title: 'Solidity',
+    level: '95%',
+    Icon: SiEthereum,
   },
   {
     title: 'Python',
